@@ -11,11 +11,12 @@ function App() {
 
   return (
     <>
-    <h1>Hello World</h1>
-    <button onClick={handleClick}>Click Here</button>
-    <h2>{count}</h2>
-      
-       
+    <div className='bg-gray-300 flex flex-col flecol'>
+      <h1 className='text-blue-500'>HELLO</h1>
+      <h2 className='text-blue-800'>Hello Down Here</h2>
+      <h4>hi</h4>
+      <h1>h1</h1>
+    </div>
     </>
   )
 }
